@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+#divWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.sideBar {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.sideNav{
+    margin-top: 80px;
+}
+
+.content {
+    float: left;
+    width: 80%;
+}
+
+.topNav {
+    height: 80px;
+    background: #313131;
+    width: 100%;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.39);
+    position: fixed;
+}
+
+.topNav h1{
+  line-height: 80px;
+  font-size: 20px;
+  margin-left: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sideBar .topNav {
+    background: #212121;
+}
+
+.sideBarFixed{
+  position: fixed;
+  width: 20%;
+  background: #212121;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.7);
+  height: 100vh;
+}
+
+.sideList ul{
+    padding: 20px;
+    list-style: none;
+}
+
+.sideList ul li {
+    padding: 22px;
+    /* background: #313131; */
+    width: 100%;
+    /* margin-bottom: 15px; */
+    border-radius: 3px;
+    border-bottom: 1px solid #313131;
+}
+
+.sideList ul li,.sideList ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.formPermohonan{
+    width: 500px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.39);
+    border-radius: 3px;
+}
+
+.inputWrapper{
+    margin-bottom: 20px;
+}
+
+.inputWrapper label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputWrapper input{
+    padding: 15px;
+    border-radius: 3px;
+    border : 1px solid #ccc;
+}
+
+.inputWrapper label, .inputWrapper input {
+    width: 100%;
+}
