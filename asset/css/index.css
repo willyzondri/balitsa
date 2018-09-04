@@ -44,7 +44,7 @@
 }
 
 .sideBar .topNav {
-    background: #212121;
+    background: #1b5e20;
 }
 
 .sideBarFixed{
@@ -76,14 +76,20 @@
     font-weight: 700;
 }
 
+.formHeader{
+    display: block;
+    margin-bottom: 20px;
+}
+
 .formPermohonan{
-    width: 500px;
+    width: 1000px;
     margin: auto;
     margin-top: 120px;
     margin-bottom: 20px;
     padding: 30px;
     box-shadow: 0 1px 10px 0 rgba(0,0,0,0.39);
     border-radius: 3px;
+    overflow: hidden;
 }
 
 .inputWrapper{
@@ -103,4 +109,14 @@
 
 .inputWrapper label, .inputWrapper input {
     width: 100%;
+}
+
+.btnSubmit{
+    float: right;
+    padding: 15px;
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.39);
 }
